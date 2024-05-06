@@ -1,6 +1,6 @@
 # RaLu-Genome
 
-This is the Rana luteiventris genome project for BZ 562. My goal with this project is to take ddRADseq reads from the Columbia spotted frog, Rana luteiventris, which was sequenced using Stacks in this publication:  [Forester et al. 2022](https://onlinelibrary.wiley.com/doi/10.1111/mec.16660), and align them to a recently published reference genome for a species in the same clade, the mountain yellow legged frog Rana muscosa. This will enable me to compare de novo sequencing with reference genome alignment and inform our understanding of the genetics of R. luteiventris.
+This is the Rana luteiventris genome project for BZ 562. My goal with this project is to take ddRADseq reads from the Columbia spotted frog, Rana luteiventris, which was sequenced using Stacks in this publication:  [Forester et al. 2022](https://onlinelibrary.wiley.com/doi/10.1111/mec.16660), and align them to a recently published reference genome for a species in the same clade, the mountain yellow legged frog (Rana muscosa). This will enable me to compare de novo sequencing with reference genome alignment and inform our understanding of the genetics of R. luteiventris.
 
 ## Progress:
 
