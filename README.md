@@ -28,6 +28,17 @@ Install BWA from https://github.com/lh3/bwa?tab=readme-ov-file
 Add BWA to .bashrc so that it can be accessed from anywhere:
 ```export PATH=/projects/c836820202@colostate.edu/bwa:$PATH```
 
+Confirm that bwa is functional with ```bwa```. Returns the program and usage information for the command.
+
+Get on a compute node and attempt to index the reference genome:
+```acompile```
+```bwa index ncbi_dataset/data/GCA_029206835.1/GCA_029206835.1_Rmu.v1_genomic.fna```
+This resulted in [bwa_index] Pack FASTA... Killed
+
+I got the same result on atesting with these specifications:
+```srun --partition=atesting --pty --cpus-per-task=1 --mem=32G /bin/bash```
+
+I assume it is because this job requires more memory or time than I am giving it access to.
 
 
 
