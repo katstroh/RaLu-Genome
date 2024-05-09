@@ -32,6 +32,7 @@ Confirm that bwa is functional with ```bwa```. Returns the program and usage inf
 
 Get on a compute node and attempt to index the reference genome:
 ```acompile```
+
 ```bwa index ncbi_dataset/data/GCA_029206835.1/GCA_029206835.1_Rmu.v1_genomic.fna```
 This resulted in [bwa_index] Pack FASTA... Killed
 
